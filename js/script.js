@@ -22,6 +22,7 @@ $(function() {
 		setTimeout("$('.lever_container button').mouseup();", 1500);
 		
 	});
-	$('.lever_container button').mousedown();
+
+	setTimeout("$('.lever_container button').mousedown();", 4000);
 
 });
